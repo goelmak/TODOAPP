@@ -1,0 +1,46 @@
+# Ignore Node.js related files and directories
+node_modules/
+package-lock.json
+
+# Ignore build/dist output
+/dist/
+/todoListReact/dist/
+
+# Ignore IDE or editor-specific files
+.idea/
+.vscode/
+
+# Ignore generated files
+/generated/
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore logs
+*.log
+
+# Ignore operating system-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore Docker-related files
+/todoListServer/docker-compose.yml
+
+# Ignore compiled TypeScript files
+*.js
+
+# Ignore configuration files
+.eslintrc.cjs
+/tsconfig.json
+/todoListReact/tsconfig.json
+/todoListReact/tsconfig.node.json
+/todoListReact/vite.config.ts
+
+# Ignore package manager files
+/todoListReact/package-lock.json
+/todoListServer/package-lock.json

@@ -1,0 +1,120 @@
+.form-filter {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 10%;
+  align-items: center;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Weather-box {
+  background: linear-gradient(
+    to right bottom,
+    rgba(55, 64, 63, 1),
+    rgba(198, 200, 200, 0.59),
+    rgba(201, 204, 204, 0.58),
+    rgba(218, 219, 219, 0.54),
+    rgba(255, 255, 255, 0.43)
+  );
+  height: 185px;
+  width: 340px;
+  border-radius: 5px;
+  margin: 15px;
+}
+.form-container {
+  margin-top: 20px;
+  width: 40%;
+  margin-left: 450px;
+  align-items: center;
+}
+.form-container div {
+  position: relative;
+  display: flex;
+}
+.task {
+  display: flex;
+  border-radius: 10px;
+  background: #222;
+  width: 822px;
+  height: 38px;
+  flex-shrink: 0;
+  margin-inline: auto;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+.task-content {
+  width: 663px;
+  height: 23px;
+  flex-shrink: 0;
+  font-family: Inter;
+  background: #222;
+  color: wheat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  margin: 7px 141px 8px 18px;
+}
+.task img {
+  position: absolute;
+  right: 0;
+}
+.form-container input {
+  padding: 10px;
+  border-radius: 50px;
+  width: 100%;
+  border: 1px solid #007bff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form-container button {
+  background-color: #007bff;
+  position: absolute;
+  right: 0px;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.hr3 {
+  border-color: #fff;
+  margin: 20px 0;
+  width: 70%;
+  margin-inline: auto;
+}
+.parent-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-element {
+  margin-left: 170px;
+}
+.text-element div {
+  display: flex;
+  align-items: center;
+}
+.hr1 {
+  width: 15px;
+}
+.hr2 {
+  width: 13px;
+}
+.text-element h1 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: normal;
+}
+.text-element img {
+  margin-left: 40px;
+}
